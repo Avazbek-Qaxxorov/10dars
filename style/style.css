@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+}
+body {
+    background-color: black;
+}
+
+
+@font-face {
+    font-family:'calibri' ;
+    src: url(../fonts/calibri.ttf);
+}
+.nav-header {
+    background-color: #fff;
+    max-width: 1500px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 20px; 
+}
+.main-header {
+    height: 700px;
+     background-image: linear-gradient(
+     to left,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.8)
+         ),
+     url('../images/gelentvagen.png');
+    background-size: cover;
+}
+.header-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 16px 
+                                                   ;
+}
+.header {
+    height: 100px;
+    /* position: fixed;
+    width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px) saturate (300%);
+    background-color: rgba(0, 0, 0, 0.495);
+}
+.header-image > img {
+    margin-top: 20px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 0 50px;
+    text-transform: capitalize;
+    color: #fff;
+    list-style: none;
+}
+.header-image {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeder-text {
+    max-width: 623px;
+}
+.header-title {
+    color: #fff;
+    margin-top: 100px;
+    width: 620px;
+    font-size: 56px;
+    font-weight:700 ;
+}
+.header-texts {
+    color: #fff;
+    width: 520px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.header-btn {
+    margin-top: 20px;
+    width:170px ;
+    height: 54px;
+    background-color:#39546C;
+    color: #fff;
+}
+.wrapper{
+    width: 100%;
+    padding: 15px 30px;
+}
+    
+    
+.main-card{
+    max-width: 1266px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.card{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #062D53;
+    display: flex;
+    align-items: flex-start;
+    padding:  20px 15px ;
+    color: #fff;
+    background: linear-gradient(118.57deg, #306ca87f 0%, rgba(48, 108, 168, 0) 79.43%);
+}
+.card-title{
+    padding: 10px 5px;   
+}
+.card-offn strong{
+    display: inline-block;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Calibri' sans-serif;
+    padding-bottom: 7px;    
+}
+.addres-wrapper a{
+    text-decoration: none;
+    color: #BCBCBC;
+}
+.hero {
+    color: #fff;
+}
+.hero-title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.hero-wrapper {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  
+}
+.hero-btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hero-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 302px;
+    height: 412px;
+    margin: 30px 10px ;
+}
+.hero-btn {
+    margin-top: 35px;
+    text-decoration: none;
+    border: none;   
+    display: inline-block;
+    
+}
+.hero-item-btn {
+    width: 169px;
+    height: 54px;
+    background-color:#39546C;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-image: url(../images/mashina.png);
+}
+.section-wrapper {
+    text-align: center;
+    color: #fff;
+}
+
+.section-title {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-text {
+    width: 458px;
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    display: inline-block;
+}
+
+.section-btn {
+    width: 170px;
+    height: 54px;
+    background-color:#39546C;
+    color: #fff;
+}          
